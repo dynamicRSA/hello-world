@@ -10,8 +10,8 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Would you like to (S)tart or (A)bort?");
-            String input = Console.ReadLine();
+            Console.WriteLine("Would you like to (S)tart or (A)bort? (Enter choice and press enter)");
+            String input = Console.ReadLine().ToUpper();
             while (input != "A") {
                 if (input == "S")
                 {
